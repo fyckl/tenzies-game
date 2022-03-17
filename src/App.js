@@ -59,6 +59,7 @@ function App() {
     setTenzies(false)
     setDice(allNewDice())
   }
+  
   return (
     <main className='container'>
         {tenzies && <Confetti />}
